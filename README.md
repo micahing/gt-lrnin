@@ -8,6 +8,41 @@ Heynong man. Let's start fresh. This guide gets you set up with Gemini CLI in un
 
 ---
 
+## Wait, What Even Is This?
+
+Gemini CLI is what's called an "AI coding agent." Think of it like a really smart assistant that lives in your terminal (that black rectangle). You type questions or requests, it responds. But unlike ChatGPT in a browser, this thing can actually *do stuff* on your computer — read files, write code, help you organize things.
+
+**What people use these for:**
+- Writing and editing documents
+- Brainstorming ideas
+- Learning new things (it explains stuff well)
+- Automating boring repetitive tasks
+- Writing code (even if you're not a programmer)
+
+There are a few of these tools out there — Gemini CLI (Google), Claude Code (Anthropic), GitHub Copilot, etc. They're all similar vibes. This guide focuses on Gemini CLI because it's free and works well.
+
+---
+
+## Before You Start: Stay Safe
+
+These tools are powerful, which means you should know the basics before diving in. Here's the quick version:
+
+**Do:**
+- Review what the tool wants to do before saying yes
+- Start with low-stakes stuff while you're learning
+- Ask it to explain what it's doing if you're unsure
+
+**Don't:**
+- Paste passwords, SSNs, or sensitive personal info
+- Let it access work files with confidential data
+- Approve actions you don't understand
+
+These tools can read and write files on your computer. That's what makes them useful, but it's also why you want to pay attention. It's like hiring a contractor — helpful, but you still want to see what they're doing before they knock down a wall.
+
+For a deeper dive, the [OpenSSF Security Guide for AI Code Assistants](https://best.openssf.org/Security-Focused-Guide-for-AI-Code-Assistant-Instructions) is the real deal.
+
+---
+
 ## What You'll Need
 
 - A Google account (free, like the coffin flop footage they can't stop showing)
@@ -133,7 +168,7 @@ Write me a short rap verse about coding in the style of MF DOOM
 
 Here's where it gets real. You can use Gemini to actually lighten your workload. No more doing everything yourself like Tony trying to run the family.
 
-![I don't know how to use the body](https://media.giphy.com/media/8k4yBBH7EGT3nnSYod/giphy.gif)
+![I don't know how to work the body](https://media1.tenor.com/m/BY0VUP7NaXsAAAAC/itysl-tim-robinson.gif)
 
 **Draft volunteer recruitment emails:**
 ```
@@ -170,9 +205,26 @@ chapter. We're a small team, so nothing too labor-intensive.
 
 ---
 
-## Next Steps
+## Get the Sample Projects
 
-Ready for a real project? Try the [Financial Advisor Assistant](./projects/financial-advisor/) — a sample project that shows how to give Gemini a specific personality. It's not in the waste management business, but it'll help you manage your money.
+Want to try the Financial Advisor project from this repo? Here's how to download it to your mr-robot folder.
+
+In Terminal, run:
+
+```bash
+cd ~/mr-robot && curl -L https://github.com/micahing/gt-lrnin/archive/main.zip -o gt-lrnin.zip && unzip gt-lrnin.zip && mv gt-lrnin-main/projects . && rm -rf gt-lrnin-main gt-lrnin.zip
+```
+
+That's one long command — just copy the whole thing and paste it.
+
+Now you've got a `projects` folder inside `mr-robot`. Try the Financial Advisor:
+
+```bash
+cd ~/mr-robot/projects/financial-advisor
+gemini
+```
+
+It'll automatically load instructions that make Gemini act like a patient financial advisor. Not in the waste management business, but it'll help you manage your money.
 
 ---
 
