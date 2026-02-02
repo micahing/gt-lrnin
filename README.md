@@ -35,7 +35,7 @@ These tools are powerful, which means you should know the basics before diving i
 **Don't:**
 - Paste passwords, SSNs, or sensitive personal info
 - Let it access work files with confidential data
-- Approve actions you don't understand
+- Approve actions you don't understand (unless you want to)
 
 These tools can read and write files on your computer. That's what makes them useful, but it's also why you want to pay attention. It's like hiring a contractor — helpful, but you still want to see what they're doing before they knock down a wall.
 
@@ -258,4 +258,4 @@ The CLI is more powerful, but these are fine. Her?
 
 ---
 
-*Made for James. Now go build something cool. The world is yours.*
+*Made for Jamba*
