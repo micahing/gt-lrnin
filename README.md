@@ -2,9 +2,9 @@
 
 ![Hello Friend](https://media.tenor.com/x4jqWpQc8JMAAAAM/mr-robot-elliot-alderson.gif)
 
-Hello, friend. Your Mac has been hiding something from you. A command-line AI assistant that can help you code, brainstorm, analyze files, and more. This guide will get you up and running in under 10 minutes.
+Hello, friend. You ever see someone in a movie type green text into a black screen and wish that was you? Good news.
 
-There's always money in the banana stand, but there's also power in the terminal.
+Heynong man. Let's start fresh. This guide gets you set up with Gemini CLI in under 10 minutes.
 
 ---
 
@@ -133,24 +133,13 @@ Write me a short rap verse about coding in the style of MF DOOM
 
 Here's where it gets real. You can use Gemini to actually lighten your workload. No more doing everything yourself like Tony trying to run the family.
 
-**Optimize delivery routes:**
-```
-I have 15 meal deliveries across these zip codes: [paste addresses].
-What's the most efficient route to minimize drive time? Consider that
-seniors are usually home in the late morning.
-```
+![I don't know how to use the body](https://media.giphy.com/media/8k4yBBH7EGT3nnSYod/giphy.gif)
 
 **Draft volunteer recruitment emails:**
 ```
 Write a friendly email recruiting volunteers for Meals on Wheels.
 Emphasize flexibility, community impact, and that routes take about
 1-2 hours. Keep it warm but not cheesy.
-```
-
-**Analyze delivery data:**
-```
-Here's a CSV of our delivery times from last month: [paste data].
-Which routes are taking longest? Any patterns you notice?
 ```
 
 **Write grant application sections:**
@@ -173,7 +162,11 @@ Give me 5 social media posts celebrating our volunteers. Mix of
 heartfelt and lighthearted. No hashtag overload.
 ```
 
-The CLI can read files too — drop a spreadsheet of addresses in your folder and ask it to help you group them by neighborhood. That's the kind of thing that used to take an afternoon.
+**Brainstorm fundraising ideas:**
+```
+Give me 10 creative fundraising event ideas for a Meals on Wheels
+chapter. We're a small team, so nothing too labor-intensive.
+```
 
 ---
 
