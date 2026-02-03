@@ -6,6 +6,8 @@ Hello, friend. You ever see someone in a movie type green text into a black scre
 
 Heynong man. Let's start fresh. This guide gets you set up with Gemini CLI in under 10 minutes.
 
+Want the official docs? Here you go: [Gemini CLI Docs](https://geminicli.com/docs)
+
 ---
 
 ## Wait, What Even Is This?
@@ -46,7 +48,8 @@ For a deeper dive, the [OpenSSF Security Guide for AI Code Assistants](https://b
 ## What You'll Need
 
 - A Google account (free, like the coffin flop footage they can't stop showing)
-- Your Mac
+- A Mac
+- **Node.js 20+** (we'll install it in Step 3)
 
 That's it. No gift receipt needed.
 
@@ -57,6 +60,8 @@ That's it. No gift receipt needed.
 Press **Cmd + Space** to open Spotlight, type **Terminal**, and hit Enter.
 
 You'll see a window with a blinking cursor. This is where fsociety lives. This is where you become the villain (ALL CAPS when you spell the man name).
+
+![Step 1: Open Terminal](images/terminal/step-1-open-terminal.svg)
 
 ---
 
@@ -82,6 +87,8 @@ Press Enter and follow any prompts.
 >
 > Don't skip this part. And don't copy this example. That's the move of someone who has no hunger for it.
 
+![Step 2: Install Homebrew](images/terminal/step-2-install-homebrew.svg)
+
 ---
 
 ## Step 3: Install Node.js
@@ -92,6 +99,8 @@ brew install node
 
 **What to look for:** Text scrolling by. When you see the `$` prompt again, sit down — be humble.
 
+![Step 3: Install Node.js](images/terminal/step-3-install-node.svg)
+
 ---
 
 ## Step 4: Install Gemini CLI
@@ -101,6 +110,8 @@ npm install -g @google/gemini-cli
 ```
 
 **What to look for:** Installation complete with no red error messages. If you see red, that's bad. Real bad, like "No soup for you" bad.
+
+![Step 4: Install Gemini CLI](images/terminal/step-4-install-gemini.svg)
 
 ---
 
@@ -114,6 +125,8 @@ mkdir mr-robot && cd mr-robot
 
 You're now inside your new `mr-robot` folder. Control is an illusion, but this folder is real.
 
+![Step 5: Create Workspace](images/terminal/step-5-create-workspace.svg)
+
 ---
 
 ## Step 6: Launch Gemini
@@ -123,6 +136,8 @@ gemini
 ```
 
 That's it. One word. Like "Gabagool" but for AI.
+
+![Step 6: Launch Gemini](images/terminal/step-6-launch-gemini.svg)
 
 ---
 
@@ -135,6 +150,12 @@ Gemini will ask how you want to authenticate.
 A browser window will open. Sign in with your Google account and approve access.
 
 **What to look for:** Back in Terminal, you'll see Gemini ready for input. The robot talks back now. People can change.
+
+![Step 7: Google Sign-In Prompt](images/terminal/step-7-sign-in-prompt.svg)
+
+![Step 8: Gemini Ready](images/terminal/step-8-gemini-ready.svg)
+
+**Note:** Some Google accounts (like certain Workspace accounts) may be asked for a Google Cloud project. If that happens, follow the on-screen prompts.
 
 ---
 
@@ -164,44 +185,9 @@ Write me a short rap verse about coding in the style of MF DOOM
 
 ---
 
-## Ideas for Meals on Wheels
+## More Ideas
 
-Here's where it gets real. You can use Gemini to actually lighten your workload. No more doing everything yourself like Tony trying to run the family.
-
-![I don't know how to work the body](https://media1.tenor.com/m/BY0VUP7NaXsAAAAC/itysl-tim-robinson.gif)
-
-**Draft volunteer recruitment emails:**
-```
-Write a friendly email recruiting volunteers for Meals on Wheels.
-Emphasize flexibility, community impact, and that routes take about
-1-2 hours. Keep it warm but not cheesy.
-```
-
-**Write grant application sections:**
-```
-Help me write the "Community Impact" section for a grant application.
-We serve 200 seniors weekly, 40% live alone, and we're their primary
-social contact. Make it compelling but factual.
-```
-
-**Create training materials:**
-```
-Write a one-page guide for new volunteer drivers. Cover: picking up
-meals, delivery etiquette with seniors, what to do if no one answers,
-and who to call for emergencies.
-```
-
-**Generate social media content:**
-```
-Give me 5 social media posts celebrating our volunteers. Mix of
-heartfelt and lighthearted. No hashtag overload.
-```
-
-**Brainstorm fundraising ideas:**
-```
-Give me 10 creative fundraising event ideas for a Meals on Wheels
-chapter. We're a small team, so nothing too labor-intensive.
-```
+Here’s where it gets real. You can use Gemini to actually lighten your workload. No more doing everything yourself like Tony trying to run the family.
 
 ---
 
@@ -230,12 +216,14 @@ It'll automatically load instructions that make Gemini act like a patient financ
 
 ## Free Tier Limits
 
-Good news: Gemini CLI is free with your Google account.
+Good news: Gemini CLI is free with your Google account if you sign in with **Login with Google**.
 
 - 60 requests per minute
 - 1,000 requests per day
 
-That's plenty. And remember: you don't need to keep the receipt.
+If you use an **API key** instead, the free limits are lower. That's plenty. And remember: you don't need to keep the receipt.
+
+For the latest limits and pricing details, check the official docs: [Gemini CLI Docs](https://geminicli.com/docs)
 
 ---
 
