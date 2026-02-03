@@ -84,7 +84,17 @@ Press Enter and follow any prompts.
 
 ---
 
-## Step 3: Install Gemini CLI
+## Step 3: Install Node.js
+
+```bash
+brew install node
+```
+
+**What to look for:** Text scrolling by. When you see the `$` prompt again, sit down — be humble.
+
+---
+
+## Step 4: Install Gemini CLI
 
 ```bash
 npm install -g @google/gemini-cli
@@ -94,7 +104,7 @@ npm install -g @google/gemini-cli
 
 ---
 
-## Step 4: Create Your Workspace
+## Step 5: Create Your Workspace
 
 Let's make a folder for your AI projects:
 
@@ -106,7 +116,7 @@ You're now inside your new `mr-robot` folder. Control is an illusion, but this f
 
 ---
 
-## Step 5: Launch Gemini
+## Step 6: Launch Gemini
 
 ```bash
 gemini
@@ -116,7 +126,7 @@ That's it. One word. Like "Gabagool" but for AI.
 
 ---
 
-## Step 6: Sign In with Google
+## Step 7: Sign In with Google
 
 Gemini will ask how you want to authenticate.
 
