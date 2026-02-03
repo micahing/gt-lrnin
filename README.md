@@ -74,27 +74,17 @@ Press Enter and follow any prompts.
 
 ![I've made a huge mistake](https://media.giphy.com/media/11BAxHG7paxJcI/giphy.gif)
 
-> **Important:** After installation, Homebrew will show you two commands to run. Copy and paste those commands exactly as shown. They look something like:
+> **Important:** After installation, Homebrew will show you two or three commands to run. Copy and paste those commands one at a time exactly as shown. They look something like:
 > ```bash
 > echo >> /Users/yourname/.zprofile
 > eval "$(/opt/homebrew/bin/brew shellenv)"
 > ```
 >
-> Don't skip this part. That's the move of someone who has no hunger for it.
+> Don't skip this part. And don't copy this example That's the move of someone who has no hunger for it.
 
 ---
 
-## Step 3: Install Node.js
-
-```bash
-brew install node
-```
-
-**What to look for:** Text scrolling by. When you see the `$` prompt again, sit down — be humble.
-
----
-
-## Step 4: Install Gemini CLI
+## Step 3: Install Gemini CLI
 
 ```bash
 npm install -g @google/gemini-cli
@@ -104,7 +94,7 @@ npm install -g @google/gemini-cli
 
 ---
 
-## Step 5: Create Your Workspace
+## Step 4: Create Your Workspace
 
 Let's make a folder for your AI projects:
 
@@ -116,7 +106,7 @@ You're now inside your new `mr-robot` folder. Control is an illusion, but this f
 
 ---
 
-## Step 6: Launch Gemini
+## Step 5: Launch Gemini
 
 ```bash
 gemini
@@ -126,7 +116,7 @@ That's it. One word. Like "Gabagool" but for AI.
 
 ---
 
-## Step 7: Sign In with Google
+## Step 6: Sign In with Google
 
 Gemini will ask how you want to authenticate.
 
@@ -144,7 +134,7 @@ Here are some starter prompts. Rap about it, write about it, think about it:
 
 **Ask it to explain something:**
 ```
-Explain what an API is like I'm Buster Bluth
+Explain how to use the terminal and gemini-cli like I'm Buster Bluth
 ```
 
 **Have it write code:**
