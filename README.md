@@ -97,7 +97,7 @@ brew install node
 ## Step 4: Install Gemini CLI
 
 ```bash
-npm install -g @anthropic-ai/gemini-cli
+npm install -g @google/gemini-cli
 ```
 
 **What to look for:** Installation complete with no red error messages. If you see red, that's bad. Real bad, like "No soup for you" bad.
