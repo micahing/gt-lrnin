@@ -79,6 +79,8 @@ Press Enter and follow any prompts.
 
 ![I've made a huge mistake](https://media.giphy.com/media/11BAxHG7paxJcI/giphy.gif)
 
+**Password note (normal):** Homebrew may ask for your Mac password. When you type, you won’t see letters (or dots) appear — that’s normal. Just type it carefully and press Enter.
+
 > **Important:** After installation, Homebrew will show you two or three commands to run. Copy and paste those commands one at a time exactly as shown. They look something like:
 > ```bash
 > echo >> /Users/yourname/.zprofile
