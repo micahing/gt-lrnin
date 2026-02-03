@@ -5,9 +5,10 @@
   <circle cx="66" cy="37" r="7" fill="#ffbd2e"/>
   <circle cx="88" cy="37" r="7" fill="#27c93f"/>
   <text x="450" y="42" font-size="14" font-family="Menlo, Monaco, Consolas, monospace" fill="#c9c9c9" text-anchor="middle">Terminal</text>
-  <text x="50" y="95" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#d7d7d7">james@macbook ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</text>
-  <text x="50" y="125" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#9ad1ff">==&gt; Checking for `sudo` access (which may request your password)...</text>
-  <text x="50" y="155" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#9ad1ff">==&gt; This script will install:</text>
-  <text x="50" y="185" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#d7d7d7">/opt/homebrew/bin/brew</text>
-  <text x="50" y="245" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#d7d7d7">Press RETURN/ENTER to continue or any other key to abort</text>
+  <text x="50" y="95" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#d7d7d7">james@macbook ~ % /bin/bash -c "$(curl -fsSL</text>
+  <text x="50" y="125" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#d7d7d7">https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</text>
+  <text x="50" y="155" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#9ad1ff">==&gt; Checking for `sudo` access (which may request your password)...</text>
+  <text x="50" y="185" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#9ad1ff">==&gt; This script will install:</text>
+  <text x="50" y="215" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#d7d7d7">/opt/homebrew/bin/brew</text>
+  <text x="50" y="275" font-size="16" font-family="Menlo, Monaco, Consolas, monospace" fill="#d7d7d7">Press RETURN/ENTER to continue or any other key to abort</text>
 </svg>
