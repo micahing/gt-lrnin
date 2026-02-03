@@ -80,7 +80,7 @@ Press Enter and follow any prompts.
 > eval "$(/opt/homebrew/bin/brew shellenv)"
 > ```
 >
-> Don't skip this part. And don't copy this example That's the move of someone who has no hunger for it.
+> Don't skip this part. And don't copy this example. That's the move of someone who has no hunger for it.
 
 ---
 
