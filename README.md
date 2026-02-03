@@ -155,7 +155,7 @@ A browser window will open. Sign in with your Google account and approve access.
 
 ![Step 7: Google Sign-In Prompt](images/terminal/step-7-sign-in-prompt.svg)
 
-![Step 8: Gemini Ready](images/terminal/step-8-gemini-ready.svg)
+![Step 8: Gemini Ready](images/terminal/step-8-gemini-ready.png)
 
 **Note:** Some Google accounts (like certain Workspace accounts) may be asked for a Google Cloud project. If that happens, follow the on-screen prompts.
 
